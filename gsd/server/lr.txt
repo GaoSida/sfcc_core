@@ -1,0 +1,28 @@
+Time: 1465195921
+Alias: lr_direct
+Train: ./0_direct/train.csv
+Test: ./0_direct/test.csv
+Fold 0: ./0_direct/fold_0.csv
+Fold 1: ./0_direct/fold_1.csv
+Feature: ['Month', 'Hour', 'X', 'Y']
+Target: Category
+Model: lr @params: {'penalty': 'l2', 'C': 0.001, 'n_jobs': 4, 'solver': 'liblinear'}
+Time: 1465196229
+Alias: lr_direct
+Train: ./0_direct/train.csv
+Test: ./0_direct/test.csv
+Fold 0: ./0_direct/fold_0.csv
+Fold 1: ./0_direct/fold_1.csv
+Feature: ['Month', 'Hour', 'X', 'Y']
+Target: Category
+Model: lr @params: {'C': 0.001, 'n_jobs': 4, 'verbose': 1, 'solver': 'lbfgs', 'multiclass': 'multinomial', 'penalty': 'l2'}
+Time: 1465196244
+Alias: lr_direct
+Train: ./0_direct/train.csv
+Test: ./0_direct/test.csv
+Fold 0: ./0_direct/fold_0.csv
+Fold 1: ./0_direct/fold_1.csv
+Feature: ['Month', 'Hour', 'X', 'Y']
+Target: Category
+Model: lr @params: {'C': 0.001, 'n_jobs': 4, 'verbose': 1, 'solver': 'lbfgs', 'penalty': 'l2', 'multi_class': 'multinomial'}
+fold 1: logloss=2.58481502037; accuracy=0.246130630374

@@ -1,0 +1,111 @@
+Time: 1464600001
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': -1, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 500, 'random_state': 0, 'max_depth': 20}
+Time: 1464600364
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': -1, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 500, 'random_state': 0, 'max_depth': 20}
+Time: 1464600637
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': 8, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 500, 'random_state': 0, 'max_depth': 20}
+Time: 1464601356
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': 8, 'verbose': 1, 'min_samples_leaf': 30, 'n_estimators': 300, 'random_state': 0, 'max_depth': 15}
+
+=============================================================
+
+Time: 1464602292
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': 8, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 400, 'random_state': 0, 'max_depth': 20}
+Time: 1464615911
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 400, 'random_state': 0, 'max_depth': 20}
+Time: 1464619093
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 30, 'n_estimators': 300, 'random_state': 0, 'max_depth': 20}
+
+=============================================================
+
+Time: 1464934481
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Month', 'Hour', 'X', 'Y']
+Target: Category
+Model: knn @params: {'n_neighbors': 3000, 'n_jobs': 4, 'weights': 'uniform', 'algorithm': 'kd_tree'}
+Time: 1464934523
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/train.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Month', 'Hour', 'X', 'Y']
+Target: Category
+Model: knn @params: {'n_neighbors': 3000, 'n_jobs': 4, 'weights': 'uniform', 'algorithm': 'kd_tree'}
+Time: 1464934145
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/train.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_sum', 'point_0', 'point_1', 'point_2', 'point_3', 'point_4', 'point_5', 'point_6', 'point_7', 'point_8', 'point_9', 'point_10', 'point_11', 'point_12', 'point_13', 'point_14', 'point_15', 'point_16', 'point_17', 'point_18', 'point_19', 'point_20', 'point_21', 'point_22', 'point_23', 'point_24', 'point_25', 'point_26', 'point_27', 'point_28', 'point_29', 'point_30', 'point_31', 'point_32', 'point_33', 'point_34', 'point_35', 'point_36', 'point_37', 'point_38']
+Target: Category
+Model: rf @params: {'n_jobs': 8, 'verbose': 1, 'min_samples_leaf': 30, 'n_estimators': 300, 'random_state': 0, 'max_depth': 15}
+
+=============================================================
+
+Time: 1464934995
+Alias: knn_direct
+Train: ./4_points/train.csv
+Test: ./4_points/test.csv
+Fold 0: ./4_points/fold_0.csv
+Fold 1: ./4_points/fold_1.csv
+Feature: ['Month', 'Hour', 'X', 'Y']
+Target: Category
+Model: knn @params: {'n_neighbors': 3000, 'n_jobs': 4, 'weights': 'uniform', 'algorithm': 'kd_tree'}
+
+=============================================================
+

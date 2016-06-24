@@ -1,0 +1,1 @@
+python baselines.py lr_direct /0_direct/train.csv /0_direct/test.csv /0_direct/fold_0.csv /0_direct/fold_1.csv 'Month,Hour,X,Y' Category lr 'penalty:s:l2 C:f:0.001 solver:s:lbfgs multi_class:s:multinomial verbose:i:1 n_jobs:i:4' ./pred lr.txt nsub
