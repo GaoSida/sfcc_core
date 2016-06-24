@@ -1,0 +1,634 @@
+Time: 1460567253
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.42423296175 Accuracy: 0.268489211236
+LogLoss: 2.42869869249 Accuracy: 0.266603478704
+
+=================================================================
+
+Time: 1460568083
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.42423296175 Accuracy: 0.268489211236
+LogLoss: 2.42869869249 Accuracy: 0.266603478704
+
+=================================================================
+
+Time: 1460568327
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.42423296175 Accuracy: 0.268489211236
+LogLoss: 2.42869869249 Accuracy: 0.266603478704
+
+=================================================================
+
+
+Time: 1460701755
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 1.0, 'min_samples_leaf': 80, 'n_estimators': 10, 'random_state': 0, 'max_depth': 1}
+LogLoss: 29.569247491 Accuracy: 0.143882598709
+
+=================================================================
+
+Time: 1460702356
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.1, 'min_samples_leaf': 80, 'n_estimators': 10, 'random_state': 0, 'max_depth': 1}
+LogLoss: 2.71317150822 Accuracy: 0.238257157843
+LogLoss: 2.71537017849 Accuracy: 0.241044483255
+
+=============================================================
+
+Time: 1460704060
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.1, 'min_samples_leaf': 80, 'n_estimators': 20, 'random_state': 0, 'max_depth': 1}
+LogLoss: 2.57156165331 Accuracy: 0.244492575377
+LogLoss: 2.57413767105 Accuracy: 0.245338357771
+
+=============================================================
+
+Time: 1460711487
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.01, 'min_samples_leaf': 80, 'n_estimators': 10, 'random_state': 0, 'max_depth': 1}
+LogLoss: 3.36733871433 Accuracy: 0.232602778129
+LogLoss: 3.36678248224 Accuracy: 0.234448761524
+
+=============================================================
+
+Time: 1460712105
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.1, 'min_samples_leaf': 80, 'n_estimators': 10, 'random_state': 0, 'max_depth': 2}
+LogLoss: 2.65717296007 Accuracy: 0.256307764655
+LogLoss: 2.65940280706 Accuracy: 0.255943378689
+
+=============================================================
+
+Time: 1460712778
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.1, 'min_samples_leaf': 40, 'n_estimators': 10, 'random_state': 0, 'max_depth': 1}
+LogLoss: 2.71317156064 Accuracy: 0.238257157843
+LogLoss: 2.71537017849 Accuracy: 0.241044483255
+
+=============================================================
+
+Time: 1463021069
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.1, 'min_samples_leaf': 80, 'n_estimators': 20, 'random_state': 0, 'max_depth': 1}
+LogLoss: 2.57156165331 Accuracy: 0.244492575377
+LogLoss: 2.57413767105 Accuracy: 0.245338357771
+
+=============================================================
+
+Time: 1463022538
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.01, 'min_samples_leaf': 80, 'n_estimators': 10, 'random_state': 0, 'max_depth': 1}
+LogLoss: 3.36733871433 Accuracy: 0.232602778129
+LogLoss: 3.36678248224 Accuracy: 0.234448761524
+
+=============================================================
+
+Time: 1463023259
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.1, 'min_samples_leaf': 80, 'n_estimators': 10, 'random_state': 0, 'max_depth': 2}
+LogLoss: 2.65717296007 Accuracy: 0.256307764655
+LogLoss: 2.65940280706 Accuracy: 0.255943378689
+
+=============================================================
+
+Time: 1463024186
+Alias: gb_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: gb @params: {'verbose': 1, 'learning_rate': 0.1, 'min_samples_leaf': 40, 'n_estimators': 10, 'random_state': 0, 'max_depth': 1}
+LogLoss: 2.71317156064 Accuracy: 0.238257157843
+LogLoss: 2.71537017849 Accuracy: 0.241044483255
+
+=============================================================
+
+Time: 1463147340
+Alias: rf_direct_feature
+Train: ../features/1_direct/train.csv
+Test: ../features/1_direct/test.csv
+Fold 0: ../features/1_direct/fold_0.csv
+Fold 1: ../features/1_direct/fold_1.csv
+Feature: ['Year3', 'Year2', 'Year1', 'Year0', 'Month3', 'Month2', 'Month1', 'Month0', 'Day4', 'Day3', 'Day2', 'Day1', 'Day0', 'Hour', 'Minute', 'Second', 'DayOfWeek2', 'DayOfWeek1', 'DayOfWeek0', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+Time: 1463734129
+Alias: rf_direct_feature
+Train: ../features/1_direct/train.csv
+Test: ../features/1_direct/test.csv
+Fold 0: ../features/1_direct/fold_0.csv
+Fold 1: ../features/1_direct/fold_1.csv
+Feature: ['Year3', 'Year2', 'Year1', 'Year0', 'Month3', 'Month2', 'Month1', 'Month0', 'Day4', 'Day3', 'Day2', 'Day1', 'Day0', 'Hour', 'Minute', 'Second', 'DayOfWeek2', 'DayOfWeek1', 'DayOfWeek0', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+Time: 1463747876
+Alias: rf_direct_feature
+Train: ../features/1_direct/train.csv
+Test: ../features/1_direct/test.csv
+Fold 0: ../features/1_direct/fold_0.csv
+Fold 1: ../features/1_direct/fold_1.csv
+Feature: ['Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'Hour', 'Minute', 'Second', 'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+Time: 1463812583
+Alias: rf_direct_feature
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'Hour', 'Minute', 'Second', 'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.49942259729 Accuracy: 0.251383638698
+LogLoss: 2.49839512264 Accuracy: 0.252656992635
+
+=============================================================
+
+Time: 1463812773
+Alias: rf_direct_feature
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'Hour', 'Minute', 'Second', 'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.46570885722 Accuracy: 0.257591926061
+LogLoss: 2.47078456119 Accuracy: 0.256429910703
+
+=============================================================
+
+<<<<<<< HEAD
+Time: 1463819388
+Alias: rf_direct_feature
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Y03', 'Y04', 'Y05', 'Y06', 'Y07', 'Y08', 'Y09', 'Y10', 'Y11', 'Y12', 'Y13', 'Y14', 'Y15', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'H0', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7', 'H8', 'H9', 'H10', 'H11', 'H12', 'H13', 'H14', 'H15', 'H16', 'H17', 'H18', 'H19', 'H20', 'H21', 'H22', 'H23', 'Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'PdDistrict', 'Pd1', 'Pd2', 'Pd3', 'Pd4', 'Pd5', 'Pd6', 'Pd7', 'Pd8', 'Pd9', 'Pd10', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 30, 'n_estimators': 50, 'random_state': 0, 'max_depth': 12}
+LogLoss: 2.42953376839 Accuracy: 0.264860550923
+LogLoss: 2.43737721615 Accuracy: 0.261504072411
+Time: 1463819686
+Alias: rf_direct_feature
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12', 'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'Pd1', 'Pd2', 'Pd3', 'Pd4', 'Pd5', 'Pd6', 'Pd7', 'Pd8', 'Pd9', 'Pd10', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.51480365171 Accuracy: 0.242157119861
+LogLoss: 2.52313594991 Accuracy: 0.23910753505
+
+=============================================================
+
+Time: 1463819786
+Alias: rf_direct_feature
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12', 'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'Pd1', 'Pd2', 'Pd3', 'Pd4', 'Pd5', 'Pd6', 'Pd7', 'Pd8', 'Pd9', 'Pd10', 'Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.45730024572 Accuracy: 0.257754707085
+LogLoss: 2.46138582103 Accuracy: 0.255803385987
+
+=============================================================
+
+Time: 1463819878
+Alias: rf_pd2bin
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Pd1', 'Pd2', 'Pd3', 'Pd4', 'Pd5', 'Pd6', 'Pd7', 'Pd8', 'Pd9', 'Pd10', 'Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.43374374849 Accuracy: 0.263533433414
+LogLoss: 2.43911618534 Accuracy: 0.261797827589
+
+=============================================================
+
+Time: 1464282764
+Alias: rf_street_cnt
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_cnt_0', 'street_cnt_1', 'street_cnt_2', 'street_cnt_3', 'street_cnt_4', 'street_cnt_5', 'street_cnt_6', 'street_cnt_7', 'street_cnt_8', 'street_cnt_9', 'street_cnt_10', 'street_cnt_11', 'street_cnt_12', 'street_cnt_13', 'street_cnt_14', 'street_cnt_15', 'street_cnt_16', 'street_cnt_17', 'street_cnt_18', 'street_cnt_19', 'street_cnt_20', 'street_cnt_21', 'street_cnt_22', 'street_cnt_23', 'street_cnt_24', 'street_cnt_25', 'street_cnt_26', 'street_cnt_27', 'street_cnt_28', 'street_cnt_29', 'street_cnt_30', 'street_cnt_31', 'street_cnt_32', 'street_cnt_33', 'street_cnt_34', 'street_cnt_35', 'street_cnt_36', 'street_cnt_37', 'street_cnt_38', 'street_cnt_39']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.41447267771 Accuracy: 0.27199578578
+LogLoss: 2.4215640003 Accuracy: 0.267560477995
+
+=============================================================
+
+Time: 1464282800
+Alias: rf_street_cnt
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_cnt_0', 'street_cnt_1', 'street_cnt_2', 'street_cnt_3', 'street_cnt_4', 'street_cnt_5', 'street_cnt_6', 'street_cnt_7', 'street_cnt_8', 'street_cnt_9', 'street_cnt_10', 'street_cnt_11', 'street_cnt_12', 'street_cnt_13', 'street_cnt_14', 'street_cnt_15', 'street_cnt_16', 'street_cnt_17', 'street_cnt_18', 'street_cnt_19', 'street_cnt_20', 'street_cnt_21', 'street_cnt_22', 'street_cnt_23', 'street_cnt_24', 'street_cnt_25', 'street_cnt_26', 'street_cnt_27', 'street_cnt_28', 'street_cnt_29', 'street_cnt_30', 'street_cnt_31', 'street_cnt_32', 'street_cnt_33', 'street_cnt_34', 'street_cnt_35', 'street_cnt_36', 'street_cnt_37', 'street_cnt_38', 'street_cnt_39']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.37614612901 Accuracy: 0.285122266635
+LogLoss: 2.38518159028 Accuracy: 0.282177093063
+
+=============================================================
+
+Time: 1464282889
+Alias: rf_street_cnt
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_cnt_0', 'street_cnt_1', 'street_cnt_2', 'street_cnt_3', 'street_cnt_4', 'street_cnt_5', 'street_cnt_6', 'street_cnt_7', 'street_cnt_8', 'street_cnt_9', 'street_cnt_10', 'street_cnt_11', 'street_cnt_12', 'street_cnt_13', 'street_cnt_14', 'street_cnt_15', 'street_cnt_16', 'street_cnt_17', 'street_cnt_18', 'street_cnt_19', 'street_cnt_20', 'street_cnt_21', 'street_cnt_22', 'street_cnt_23', 'street_cnt_24', 'street_cnt_25', 'street_cnt_26', 'street_cnt_27', 'street_cnt_28', 'street_cnt_29', 'street_cnt_30', 'street_cnt_31', 'street_cnt_32', 'street_cnt_33', 'street_cnt_34', 'street_cnt_35', 'street_cnt_36', 'street_cnt_37', 'street_cnt_38', 'street_cnt_39']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.37614612901 Accuracy: 0.285122266635
+LogLoss: 2.38518159028 Accuracy: 0.282177093063
+
+=============================================================
+
+Time: 1464283607
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.38046774168 Accuracy: 0.283257067409
+LogLoss: 2.38570647093 Accuracy: 0.281580402858
+
+=============================================================
+
+Time: 1464284217
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_cnt_0', 'street_cnt_1', 'street_cnt_2', 'street_cnt_3', 'street_cnt_4', 'street_cnt_5', 'street_cnt_6', 'street_cnt_7', 'street_cnt_8', 'street_cnt_9', 'street_cnt_10', 'street_cnt_11', 'street_cnt_12', 'street_cnt_13', 'street_cnt_14', 'street_cnt_15', 'street_cnt_16', 'street_cnt_17', 'street_cnt_18', 'street_cnt_19', 'street_cnt_20', 'street_cnt_21', 'street_cnt_22', 'street_cnt_23', 'street_cnt_24', 'street_cnt_25', 'street_cnt_26', 'street_cnt_27', 'street_cnt_28', 'street_cnt_29', 'street_cnt_30', 'street_cnt_31', 'street_cnt_32', 'street_cnt_33', 'street_cnt_34', 'street_cnt_35', 'street_cnt_36', 'street_cnt_37', 'street_cnt_38', 'street_cnt_39']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.37182707777 Accuracy: 0.286596339236
+LogLoss: 2.37925687337 Accuracy: 0.282406589296
+
+=============================================================
+
+Time: 1464284685
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_cnt_0', 'street_cnt_1', 'street_cnt_2', 'street_cnt_3', 'street_cnt_4', 'street_cnt_5', 'street_cnt_6', 'street_cnt_7', 'street_cnt_8', 'street_cnt_9', 'street_cnt_10', 'street_cnt_11', 'street_cnt_12', 'street_cnt_13', 'street_cnt_14', 'street_cnt_15', 'street_cnt_16', 'street_cnt_17', 'street_cnt_18', 'street_cnt_19', 'street_cnt_20', 'street_cnt_21', 'street_cnt_22', 'street_cnt_23', 'street_cnt_24', 'street_cnt_25', 'street_cnt_26', 'street_cnt_27', 'street_cnt_28', 'street_cnt_29', 'street_cnt_30', 'street_cnt_31', 'street_cnt_32', 'street_cnt_33', 'street_cnt_34', 'street_cnt_35', 'street_cnt_36', 'street_cnt_37', 'street_cnt_38', 'street_cnt_39']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+Time: 1464284744
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_proba_39']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.37304539196 Accuracy: 0.286731990088
+LogLoss: 2.38011388658 Accuracy: 0.282888531385
+
+=============================================================
+
+Time: 1464285325
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_proba_39', 'street_cum']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+Time: 1464285347
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_proba_39', 'street_sum']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.37037708021 Accuracy: 0.28670259907
+LogLoss: 2.37872418774 Accuracy: 0.282232172159
+
+=============================================================
+
+Time: 1464285806
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_proba_39', 'street_sum']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.37037708021 Accuracy: 0.28670259907
+LogLoss: 2.37872418774 Accuracy: 0.282232172159
+
+=============================================================
+
+Time: 1464315726
+Alias: rf_original
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_proba_39', 'street_sum']
+Target: Category
+Model: nb @params: {}
+LogLoss: 2.62835858881 Accuracy: 0.21306679448
+LogLoss: 2.63706837077 Accuracy: 0.212169267241
+
+=============================================================
+
+Time: 1464319183
+Alias: rf_street_smooth_proba
+Train: ../features/2_street/train.csv
+Test: ../features/2_street/test.csv
+Fold 0: ../features/2_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_proba_39', 'street_sum']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.37228657759 Accuracy: 0.287202246378
+LogLoss: 2.3798525574 Accuracy: 0.283677998426
+
+=============================================================
+
+Time: 1464321512
+Alias: rf_refine_street
+Train: ../features/3_refine_street/train.csv
+Test: ../features/3_refine_street/test.csv
+Fold 0: ../features/3_refine_street/fold_0.csv
+Fold 1: ../features/2_street/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y', 'street_proba_0', 'street_proba_1', 'street_proba_2', 'street_proba_3', 'street_proba_4', 'street_proba_5', 'street_proba_6', 'street_proba_7', 'street_proba_8', 'street_proba_9', 'street_proba_10', 'street_proba_11', 'street_proba_12', 'street_proba_13', 'street_proba_14', 'street_proba_15', 'street_proba_16', 'street_proba_17', 'street_proba_18', 'street_proba_19', 'street_proba_20', 'street_proba_21', 'street_proba_22', 'street_proba_23', 'street_proba_24', 'street_proba_25', 'street_proba_26', 'street_proba_27', 'street_proba_28', 'street_proba_29', 'street_proba_30', 'street_proba_31', 'street_proba_32', 'street_proba_33', 'street_proba_34', 'street_proba_35', 'street_proba_36', 'street_proba_37', 'street_proba_38', 'street_proba_39', 'street_sum']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 50, 'n_estimators': 50, 'random_state': 0, 'max_depth': 10}
+LogLoss: 2.61408752831 Accuracy: 0.227723869124
+LogLoss: 2.75843631083 Accuracy: 0.138911774763
+
+=============================================================
+
+
+=======
+Time: 1464327519
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ["'Year", 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', "Y'"]
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+>>>>>>> 0c6a6b0755d8d0a991b2405f5472fdec6a0577ac
+Time: 1464636938
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 200, 'random_state': 0, 'max_depth': 14}
+Time: 1464666748
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 40, 'random_state': 0, 'max_depth': 14}
+
+=============================================================
+
+Time: 1464680227
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 40, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.34196935677 Accuracy: 0.297405451356
+LogLoss: 2.35067909758 Accuracy: 0.294790206019
+
+=============================================================
+
+Time: 1464681243
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 40, 'random_state': 0, 'max_depth': 16}
+LogLoss: 2.34321313717 Accuracy: 0.299071695997
+LogLoss: 2.3494775779 Accuracy: 0.296371435063
+
+=============================================================
+
+Time: 1464681318
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 40, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.33238366816 Accuracy: 0.30174175695
+LogLoss: 2.3425151889 Accuracy: 0.299336526391
+
+=============================================================
+
+Time: 1464681380
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 40, 'random_state': 0, 'max_depth': 14}
+
+=============================================================
+
+Time: 1464682957
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 50, 'random_state': 0, 'max_depth': 20}
+LogLoss: 2.36252244285 Accuracy: 0.307581526163
+LogLoss: 2.37024561268 Accuracy: 0.305209334989
+
+=============================================================
+
+Time: 1464683679
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 30, 'random_state': 0, 'max_depth': 20}
+LogLoss: 2.41470551078 Accuracy: 0.306258930348
+LogLoss: 2.42003733478 Accuracy: 0.303813997893
+
+=============================================================
+
+Time: 1464683751
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 4, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 50, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.32940675058 Accuracy: 0.301703322542
+LogLoss: 2.33881024585 Accuracy: 0.299240137973
+
+=============================================================
+
+Time: 1464684065
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 3, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 70, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.32563640943 Accuracy: 0.301904537973
+LogLoss: 2.33527106223 Accuracy: 0.29941455511
+
+=============================================================
+
+Time: 1464686875
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 3, 'verbose': 1, 'min_samples_leaf': 30, 'n_estimators': 70, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.32763219644 Accuracy: 0.300780896743
+LogLoss: 2.33634426121 Accuracy: 0.298452965895
+
+=============================================================
+
+Time: 1464686976
+Alias: rf_direct_feature
+Train: ../features/0_direct/train.csv
+Test: ../features/0_direct/test.csv
+Fold 0: ../features/0_direct/fold_0.csv
+Fold 1: ../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 3, 'verbose': 1, 'min_samples_leaf': 20, 'n_estimators': 70, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.32563640943 Accuracy: 0.301904537973
+LogLoss: 2.33527106223 Accuracy: 0.29941455511
+
+=============================================================
+

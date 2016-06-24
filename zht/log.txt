@@ -1,0 +1,154 @@
+Time: 1464404033
+Time: 1464404063
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.42423296175 Accuracy: 0.268489211236
+LogLoss: 2.42869869249 Accuracy: 0.266603478704
+
+=============================================================
+
+Time: 1464404311
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.34541260316 Accuracy: 0.297000759645
+LogLoss: 2.35567116797 Accuracy: 0.294787911056
+
+=============================================================
+
+Time: 1464404489
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 18}
+LogLoss: 2.35393643974 Accuracy: 0.299329432618
+LogLoss: 2.36154605857 Accuracy: 0.296580276635
+
+=============================================================
+
+Time: 1464404589
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 12}
+LogLoss: 2.35774004437 Accuracy: 0.291626725027
+LogLoss: 2.36610646764 Accuracy: 0.288570858109
+
+=============================================================
+
+Time: 1464406582
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+Time: 1464406995
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+Time: 1464407151
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+Time: 1464407214
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+LogLoss: 4.72625869127 Accuracy: 0.290091663432
+Time: 1464407297
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+LogLoss: 4.72625869127 Accuracy: 0.290091663432
+LogLoss: 4.75124113151 Accuracy: 0.285809656113
+
+=============================================================
+
+Time: 1464504787
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+LogLoss: 4.72625869127 Accuracy: 0.290091663432
+LogLoss: 4.75124113151 Accuracy: 0.285809656113
+
+=============================================================
+
+Time: 1464505387
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+Time: 1464505423
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 14}
+LogLoss: 2.35772890124
+LogLoss: 2.36796095172
+
+=============================================================
+
+Time: 1464505831
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+Time: 1464505902
+Train: ../features/1_vector/train.csv
+Test: ../features/1_vector/test.csv
+Fold 0: ../features/1_vector/fold_0.csv
+Fold 1: ../features/1_vector/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayofWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 80, 'n_estimators': 30, 'random_state': 0, 'max_depth': 8}
+LogLoss: 2.41142968823
+LogLoss: 2.42242554188
+
+=============================================================
+

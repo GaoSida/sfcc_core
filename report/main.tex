@@ -1,0 +1,80 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage{verbatim}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{epstopdf}
+\usepackage{threeparttable}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `basename #1 .tif`.png}
+
+\newcommand{\reminder}[1]{\textbf{\color{red}[** #1 **]}}  % to fix
+\newcommand{\hide}[1]{} %hide
+\newcommand{\vpara}[1]{\vspace{0.1in}\noindent\textbf{#1 }}
+\newcommand{\para}[1]{\vspace{0.01in}\noindent\textbf{#1 }}
+\newcommand{\secref}[1]{Section~\ref{#1}} %section reference
+\newcommand{\Real}{\ensuremath{\mathbb{R}}}  % Real numbers
+\newcommand{\figref}[1]{Figure~\ref{#1}} %section reference
+\newcommand{\beq}[1]{\vspace{-0.02in}\begin{equation}#1\end{equation}\vspace{-0.02in}}
+\newcommand{\beqn}[1]{\vspace{-0.03in}\begin{eqnarray}#1\end{eqnarray}\vspace{-0.03in}}
+\newcommand{\beal}[1]{\vspace{-0.03in}\begin{align}#1\end{align}\vspace{-0.03in}}
+\newcommand{\besp}[1]{\begin{split}#1\end{split}}
+% added by Sida Gao for tables
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\usepackage{xeCJK}
+\setCJKmainfont{HiraginoSansGB-W3}
+\setCJKsansfont{HiraginoSansGB-W6}
+\renewcommand\baselinestretch{1.2}
+
+\begin{document}
+
+\title{通过时间、地点信息预测三藩市犯罪类型}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{高思达}
+\IEEEauthorblockA{计35班\\
+2013011413\\
+gsd13@mails.tsinghua.edu.cn}
+\and
+\IEEEauthorblockN{魏鑫鼎}
+\IEEEauthorblockA{计32班\\
+2013011316\\
+weixinding@gmail.com
+}
+\and
+\IEEEauthorblockN{张浩天}
+\IEEEauthorblockA{计35班\\
+2013011416\\
+zhang-ht13@mails.tsinghua.edu.cn
+}}
+
+\maketitle
+
+\input{abstract.tex}
+\input{intro.tex}
+\input{problem.tex}
+\input{observation.tex}
+\input{feature.tex}
+\input{model.tex}
+\input{conclusion.tex}
+
+
+
+
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+%\end{thebibliography}
+
+% that's all folks
+\end{document}
+
+
