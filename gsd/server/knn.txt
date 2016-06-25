@@ -109,3 +109,20 @@ Model: knn @params: {'n_neighbors': 3000, 'n_jobs': 4, 'weights': 'uniform', 'al
 
 =============================================================
 
+Time: 1466855968
+Alias: knn_direct
+Train: ../../features/4_points/train.csv
+Test: ../../features/4_points/test.csv
+Fold 0: ../../features/4_points/fold_0.csv
+Fold 1: ../../features/4_points/fold_1.csv
+Feature: ['Month', 'Hour', 'X', 'Y']
+Target: Category
+Model: knn @params: {'n_neighbors': 3000, 'n_jobs': 4, 'weights': 'uniform', 'algorithm': 'kd_tree'}
+fold 1: logloss=2.65553851001; accuracy=0.206650533808
+fold 2: logloss=2.6579303191; accuracy=0.205918696224
+fold 3: logloss=2.65923152836; accuracy=0.206496176208
+fold 4: logloss=2.65677336961; accuracy=0.206037447894
+fold 5: logloss=2.65510318698; accuracy=0.205938631859
+average: logloss=2.65691538281; accuracy=0.206208297199
+=============================================================
+

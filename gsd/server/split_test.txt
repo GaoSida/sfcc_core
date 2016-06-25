@@ -194,3 +194,57 @@ LogLoss: 2.63902225103 Accuracy: 0.206978062455
 
 =============================================================
 
+Time: 1466837291
+Alias: rf_street_split
+Train: ./0_direct/train.csv
+Test: ./0_direct/test.csv
+Fold 0: ./features/redo_fold_0_pool.csv
+Fold 1: ./features/redo_fold_1_pool.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: lr @params: {'multi_class': 'multinomial', 'C': 0.01, 'n_jobs': 10, 'verbose': 1, 'solver': 'lbfgs'}
+Time: 1466838462
+Alias: rf_street_split
+Train: ./0_direct/train.csv
+Test: ./0_direct/test.csv
+Fold 0: ./features/redo_fold_0_pool.csv
+Fold 1: ./features/redo_fold_1_pool.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: lr @params: {'multi_class': 'multinomial', 'C': 0.01, 'n_jobs': 10, 'verbose': 1, 'solver': 'lbfgs'}
+Time: 1466840782
+Alias: rf_street_split
+Train: ../../features/0_direct/train.csv
+Test: ../../features/0_direct/test.csv
+Fold 0: ../../features/redo_fold_0_pool.csv
+Fold 1: ../../features/redo_fold_1_pool.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: lr @params: {'multi_class': 'multinomial', 'C': 0.01, 'n_jobs': 10, 'verbose': 1, 'solver': 'lbfgs'}
+Time: 1466853612
+Alias: rf_street_split
+Train: ../../features/0_direct/train.csv
+Test: ../../features/0_direct/test.csv
+Fold 0: ../../features/redo_fold_0_pool.csv
+Fold 1: ../../features/redo_fold_1_pool.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: lr @params: {'multi_class': 'multinomial', 'C': 0.01, 'n_jobs': 10, 'verbose': 1, 'solver': 'lbfgs'}
+Time: 1466861501
+Alias: rf_street_split
+Train: ../../features/0_direct/train.csv
+Test: ../../features/0_direct/test.csv
+Fold 0: ../../features/redo_fold_0_pool.csv
+Fold 1: ../../features/redo_fold_1_pool.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'multi_class': 'multinomial', 'C': 0.01, 'n_jobs': 10, 'verbose': 1, 'solver': 'lbfgs'}
+Time: 1466862621
+Alias: rf_street_split
+Train: ../../features/0_direct/train.csv
+Test: ../../features/0_direct/test.csv
+Fold 0: ../../features/redo_fold_0_pool.csv
+Fold 1: ../../features/redo_fold_1_pool.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'multi_class': 'multinomial', 'C': 0.01, 'n_jobs': 10, 'verbose': 1, 'solver': 'lbfgs'}

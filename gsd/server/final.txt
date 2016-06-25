@@ -331,3 +331,12 @@ fold 5: logloss=2.28791397933; accuracy=0.309784960933
 average: logloss=2.28903954336; accuracy=0.309790241443
 =============================================================
 
+Time: 1466870515
+Alias: rf_points
+Train: ../../features/train_pool.csv
+Test: ../../features/test_pool.csv
+Fold 0: ../../features/0_direct/fold_0.csv
+Fold 1: ../../features/0_direct/fold_1.csv
+Feature: ['Year', 'Month', 'Day', 'Hour', 'Minute', 'Second', 'DayOfWeek', 'PdDistrict', 'Address1', 'Address2', 'X', 'Y']
+Target: Category
+Model: rf @params: {'n_jobs': 10, 'verbose': 1, 'min_samples_leaf': 30, 'n_estimators': 300, 'random_state': 0, 'max_depth': 15}

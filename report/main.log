@@ -1,8 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.12.4)  24 JUN 2016 23:09
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.28)  26 JUN 2016 01:34
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex -recorder
+**main.tex
 (./main.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -1078,7 +1079,11 @@ File: xeCJK.cfg 2015/05/15 v3.3.2 Configuration file for xeCJK package
 . and font adjustment code:
 . 
 .................................................
- (./main.aux)
+ (./main.aux
+
+LaTeX Warning: Label `fig:tot_category' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -1097,8 +1102,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 33.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 33.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 33.
@@ -1201,7 +1205,439 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
 [][][]\EU1/lmr/m/n/8 https://www.kaggle.com/tyz910/sf-crime/yet-another-
  []
 
-) (./feature.tex [3]) (./model.tex) (./conclusion.tex)
+File: fig/category_density.png Graphic file (type QTm)
+<use  "fig/category_density.png" >) (./feature.tex [3]) (./model.tex
+File: fig/importance.png Graphic file (type QTm)
+
+<use  "fig/importance.png" > [4]
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\EU1/HiraginoSansGB-W3(0)/m/n/10 提
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 交
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 编
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\EU1/HiraginoSansGB-W3(0)/m/n/10 使
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 用
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 特
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 征
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 编
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\EU1/HiraginoSansGB-W3(0)/m/n/10 迭
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 代
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 轮
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\EU1/HiraginoSansGB-W3(0)/m/n/10 决
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 策
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 树
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 最
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 深
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 宽
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\EU1/HiraginoSansGB-W3(0)/m/n/10 学
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 习
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\EU1/HiraginoSansGB-W3(0)/m/n/10 每
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 棵
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 树
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 的
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 列
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 采
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 样
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]\EU1/HiraginoSansGB-W3(0)/m/n/10 提
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 交
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 结
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 果
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 保
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 留
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 几
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 位
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\EU1/HiraginoSansGB-W3(0)/m/n/10 小
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 25--25
+[]\EU1/lmr/m/n/10 0.3| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 27--27
+[]\EU1/lmr/m/n/10 100| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 27--27
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 27--27
+[]\EU1/lmr/m/n/10 2.259029| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 29--29
+[]\EU1/lmr/m/n/10 100| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 29--29
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 29--29
+[]\EU1/lmr/m/n/10 2.235178| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 31--31
+[]\EU1/lmr/m/n/10 100| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 31--31
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 31--31
+[]\EU1/lmr/m/n/10 2.289943| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 33--33
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 33--33
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 33--33
+[]\EU1/lmr/m/n/10 2.263382| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 35--35
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 35--35
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 35--35
+[]\EU1/lmr/m/n/10 2.208462| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 37--37
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 37--37
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 39--39
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 39--39
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 39--39
+[]\EU1/lmr/m/n/10 2.229024| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 41--41
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 41--41
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 41--41
+[]\EU1/lmr/m/n/10 2.223634| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 43--43
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 43--43
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 45--45
+[]\EU1/lmr/m/n/10 100| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 45--45
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (3.63678pt too wide) in paragraph at lines 45--45
+[]\EU1/lmr/m/n/10 2.313002| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 47--47
+[]\EU1/lmr/m/n/10 100| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 47--47
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 47--47
+[]\EU1/lmr/m/n/10 0.8| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 49--49
+[]\EU1/lmr/m/n/10 100| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 49--49
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 49--49
+[]\EU1/lmr/m/n/10 0.8| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 51--51
+[]\EU1/lmr/m/n/10 100| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 51--51
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 51--51
+[]\EU1/lmr/m/n/10 0.8| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 53--53
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 53--53
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 53--53
+[]\EU1/lmr/m/n/10 0.6| 
+ []
+
+
+Overfull \hbox (3.61908pt too wide) in paragraph at lines 55--55
+[]\EU1/lmr/m/n/10 200| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 55--55
+[]\EU1/lmr/m/n/10 0.1| 
+ []
+
+
+Overfull \hbox (1.39908pt too wide) in paragraph at lines 55--55
+[]\EU1/lmr/m/n/10 0.8| 
+ []
+
+
+Overfull \hbox (13.95288pt too wide) in paragraph at lines 21--58
+[][] 
+ []
+
+
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\EU1/lmr/m/n/10 fold 1: logloss=2.65553851001; accu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\EU1/lmr/m/n/10 fold 3: logloss=2.65923152836; accu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]\EU1/lmr/m/n/10 fold 4: logloss=2.65677336961; accu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[]\EU1/lmr/m/n/10 fold 5: logloss=2.65510318698; accu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+[]\EU1/lmr/m/n/10 average: logloss=2.65691538281; accu-
+ []
+
+) (./conclusion.tex)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1213,18 +1649,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./main.aux)
+[6
+
+] [7] [8
+
+
+] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 19600 strings out of 493706
- 409918 string characters out of 6145769
- 447219 words of memory out of 5000000
- 22723 multiletter control sequences out of 15000+600000
+ 19634 strings out of 493706
+ 411753 string characters out of 6145768
+ 464219 words of memory out of 5000000
+ 22755 multiletter control sequences out of 15000+600000
  27853 words of font info for 116 fonts, out of 8000000 for 9000
  1331 hyphenation exceptions out of 8191
- 42i,8n,69p,10455b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,69p,10445b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (4 pages).
+Output written on main.pdf (8 pages).

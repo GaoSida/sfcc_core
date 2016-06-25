@@ -8,9 +8,10 @@ import pandas as pd
 import sys
 import time
 import pickle
+from sklearn.externals import joblib
 
 cv_folds = 5
-feature_dir = '.'
+feature_dir = '../../features'
 name2model = {
         'lr': linear_model.LogisticRegression,
         'rf': ensemble.RandomForestClassifier,
@@ -171,6 +172,7 @@ if __name__ == "__main__":
 
         model = name2model[model_name](**model_params)
         model.fit(X_train, Y_train)
+        joblib.dump(model, 'rf1.pkl')
         Y_pred_prob = model.predict_proba(X_test)
 
         Y_pred_prob = np.column_stack((range(len(Y_pred_prob)), Y_pred_prob))
