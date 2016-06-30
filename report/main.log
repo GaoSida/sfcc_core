@@ -1,9 +1,8 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.11.28)  26 JUN 2016 01:34
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.12.4)  30 JUN 2016 15:43
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
+**main.tex -recorder
 (./main.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -294,7 +293,15 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box30
-) (/usr/local/texlive/2015/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks23
+\float@box=\box31
+\@float@everytoks=\toks24
+\@floatcapt=\box32
+)
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2015/03/01 v5547 L3 programming layer (loader) 
 
@@ -308,24 +315,24 @@ L3 Module: l3tl 2015/01/27 v5500 L3 Token lists
 L3 Module: l3str 2015/03/01 v5545 L3 Strings
 L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
 L3 Module: l3int 2015/02/21 v5529 L3 Integers
-\c_max_int=\count110
-\l_tmpa_int=\count111
-\l_tmpb_int=\count112
-\g_tmpa_int=\count113
-\g_tmpb_int=\count114
+\c_max_int=\count111
+\l_tmpa_int=\count112
+\l_tmpb_int=\count113
+\g_tmpa_int=\count114
+\g_tmpb_int=\count115
 L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
 L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
-\g__prg_map_int=\count115
+\g__prg_map_int=\count116
 L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
 L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
 L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
 L3 Module: l3msg 2015/02/26 v5537 L3 Messages
 L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
-\l_iow_line_count_int=\count116
-\l__iow_target_count_int=\count117
-\l__iow_current_line_int=\count118
-\l__iow_current_word_int=\count119
-\l__iow_current_indentation_int=\count120
+\l_iow_line_count_int=\count117
+\l__iow_target_count_int=\count118
+\l__iow_current_line_int=\count119
+\l__iow_current_word_int=\count120
+\l__iow_current_indentation_int=\count121
 L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
 \c_zero_dim=\dimen140
 \c_max_dim=\dimen141
@@ -346,26 +353,26 @@ L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/01/27 v5500 L3 Key-value interfaces
-\g__keyval_level_int=\count121
-\l_keys_choice_int=\count122
+\g__keyval_level_int=\count122
+\l_keys_choice_int=\count123
 L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
-\c__fp_leading_shift_int=\count123
-\c__fp_middle_shift_int=\count124
-\c__fp_trailing_shift_int=\count125
-\c__fp_big_leading_shift_int=\count126
-\c__fp_big_middle_shift_int=\count127
-\c__fp_big_trailing_shift_int=\count128
-\c__fp_Bigg_leading_shift_int=\count129
-\c__fp_Bigg_middle_shift_int=\count130
-\c__fp_Bigg_trailing_shift_int=\count131
+\c__fp_leading_shift_int=\count124
+\c__fp_middle_shift_int=\count125
+\c__fp_trailing_shift_int=\count126
+\c__fp_big_leading_shift_int=\count127
+\c__fp_big_middle_shift_int=\count128
+\c__fp_big_trailing_shift_int=\count129
+\c__fp_Bigg_leading_shift_int=\count130
+\c__fp_Bigg_middle_shift_int=\count131
+\c__fp_Bigg_trailing_shift_int=\count132
 L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
-\c_empty_box=\box31
-\l_tmpa_box=\box32
-\l_tmpb_box=\box33
-\g_tmpa_box=\box34
-\g_tmpb_box=\box35
+\c_empty_box=\box33
+\l_tmpa_box=\box34
+\l_tmpb_box=\box35
+\g_tmpa_box=\box36
+\g_tmpb_box=\box37
 L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
-\l__coffin_internal_box=\box36
+\l__coffin_internal_box=\box38
 \l__coffin_internal_dim=\dimen146
 \l__coffin_offset_x_dim=\dimen147
 \l__coffin_offset_y_dim=\dimen148
@@ -373,14 +380,14 @@ L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
 \l__coffin_y_dim=\dimen150
 \l__coffin_x_prime_dim=\dimen151
 \l__coffin_y_prime_dim=\dimen152
-\c_empty_coffin=\box37
-\l__coffin_aligned_coffin=\box38
-\l__coffin_aligned_internal_coffin=\box39
-\l_tmpa_coffin=\box40
-\l_tmpb_coffin=\box41
-\l__coffin_display_coffin=\box42
-\l__coffin_display_coord_coffin=\box43
-\l__coffin_display_pole_coffin=\box44
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
 \l__coffin_display_offset_dim=\dimen153
 \l__coffin_display_x_dim=\dimen154
 \l__coffin_display_y_dim=\dimen155
@@ -394,7 +401,7 @@ L3 Module: l3candidates 2015/03/01 v5544 L3 Experimental additions to l3kernel
 \l__box_bottom_new_dim=\dimen161
 \l__box_left_new_dim=\dimen162
 \l__box_right_new_dim=\dimen163
-\l__box_internal_box=\box45
+\l__box_internal_box=\box47
 \l__coffin_bounding_shift_dim=\dimen164
 \l__coffin_left_corner_dim=\dimen165
 \l__coffin_right_corner_dim=\dimen166
@@ -416,7 +423,7 @@ y
 Package: xtemplate 2014/11/25 v5471 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen171
-\l__xtemplate_tmp_int=\count132
+\l__xtemplate_tmp_int=\count133
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip59
 Variant \prop_get:NoNTF already defined; not changing it on line 106
@@ -424,17 +431,17 @@ Variant \prop_get:NoNT already defined; not changing it on line 107
 Variant \prop_get:NoNF already defined; not changing it on line 108
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count133
-\l__xparse_m_args_int=\count134
-\l__xparse_mandatory_args_int=\count135
-\l__xparse_processor_int=\count136
-\l__xparse_v_nesting_int=\count137
+\l__xparse_current_arg_int=\count134
+\l__xparse_m_args_int=\count135
+\l__xparse_mandatory_args_int=\count136
+\l__xparse_processor_int=\count137
+\l__xparse_v_nesting_int=\count138
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 )
-\l__xeCJK_tmp_int=\count138
-\l__xeCJK_tmp_box=\box46
+\l__xeCJK_tmp_int=\count139
+\l__xeCJK_tmp_box=\box48
 \l__xeCJK_tmp_dim=\dimen172
 \l__xeCJK_tmp_skip=\skip60
 .................................................
@@ -442,9 +449,9 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \xeCJKShipoutHook with sig. '' on line 151.
 .................................................
-\g__xeCJK_spacefactor_int=\count139
-\l__xeCJK_begin_int=\count140
-\l__xeCJK_end_int=\count141
+\g__xeCJK_spacefactor_int=\count140
+\l__xeCJK_begin_int=\count141
+\l__xeCJK_end_int=\count142
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -487,7 +494,7 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \xeCJKResetCharClass with sig. '' on line 617.
 .................................................
-\g__xeCJK_node_int=\count142
+\g__xeCJK_node_int=\count143
 \c__xeCJK_CJK_node_dim=\dimen173
 \c__xeCJK_CJK-space_node_dim=\dimen174
 \c__xeCJK_default_node_dim=\dimen175
@@ -501,7 +508,7 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \xeCJKnobreak with sig. '' on line 1394.
 .................................................
-\l__xeCJK_widow_penalty_int=\count143
+\l__xeCJK_widow_penalty_int=\count144
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -567,7 +574,7 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \setCJKfallbackfamilyfont with sig. 'mO{}m' on line 2399.
 .................................................
-\g__xeCJK_family_int=\count144
+\g__xeCJK_family_int=\count145
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -624,7 +631,7 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 . 
 . Defining command \setCJKmathfont with sig. 'O{}m' on line 3115.
 .................................................
-\l__xeCJK_verb_case_int=\count145
+\l__xeCJK_verb_case_int=\count146
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -638,9 +645,9 @@ Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
 \l__xeCJK_verb_exspace_skip=\skip63
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2015/03/14 v2.4c Font selection for XeLaTeX and LuaLaTeX
-\l_fontspec_script_int=\count146
-\l_fontspec_language_int=\count147
-\l_fontspec_strnum_int=\count148
+\l_fontspec_script_int=\count147
+\l_fontspec_language_int=\count148
+\l_fontspec_strnum_int=\count149
 \l__fontspec_tmpa_dim=\dimen195
 \l__fontspec_tmpb_dim=\dimen196
 \l__fontspec_tmpc_dim=\dimen197
@@ -691,9 +698,9 @@ LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 (/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\tipaTiiicode=\count149
-\tipasavetokens=\toks23
-\tipachecktokens=\toks24
+\tipaTiiicode=\count150
+\tipasavetokens=\toks25
+\tipachecktokens=\toks26
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -802,7 +809,7 @@ File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 .................................................
 Variant \prop_gput:cnV already defined; not changing it on line 704
 Variant \prop_gput:cnx already defined; not changing it on line 705
-\l__fontspec_tmp_int=\count150
+\l__fontspec_tmp_int=\count151
 LaTeX Info: Redefining \itshape on input line 2232.
 LaTeX Info: Redefining \slshape on input line 2237.
 LaTeX Info: Redefining \scshape on input line 2242.
@@ -928,8 +935,8 @@ Package: xunicode-addon 2015/05/15 v3.3.2 addon file for xunicode
 . Defining command \DeclareUTFDoubleEncodedSymbol with sig. 'mO{\UTFencname
 . }mm' on line 309.
 .................................................
-\l__xunadd_tmp_coffin=\box47
-\l__xunadd_circle_coffin=\box48
+\l__xunadd_tmp_coffin=\box49
+\l__xunadd_circle_coffin=\box50
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1041,7 +1048,7 @@ File: xunicode-extra.def 2015/05/15 v3.3.2 extra definition for xunicode
 (/usr/local/texlive/2015/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2015/05/15 v3.3.2 Configuration file for xeCJK package
 ))
-\g__fontspec_family_HiraginoSansGB-W3_int=\count151
+\g__fontspec_family_HiraginoSansGB-W3_int=\count152
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1086,26 +1093,26 @@ LaTeX Warning: Label `fig:tot_category' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 33.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 34.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 34.
 
 -- Lines per column: 46 (approximate, difference = 12.00165pt).
 .................................................
@@ -1115,56 +1122,56 @@ LaTeX Font Info:    ... okay on input line 33.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 33.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 33.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 33.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 33.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 33.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 33.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 33.
-LaTeX Font Info:    Redeclaring math accent \check on input line 33.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 33.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 33.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 33.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 33.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 33.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
+LaTeX Font Info:    Redeclaring math accent \check on input line 34.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 33.
+(Font)              `operators' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 33.
+(Font)                  OT1/cmr/m/n --> EU1/lmr/m/n on input line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 33.
+(Font)              `operators' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 33.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 33.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 33.
+(Font)                  OT1/cmr/m/it --> EU1/lmr/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 33.
+(Font)                  OT1/cmr/bx/n --> EU1/lmr/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 33.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 33.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 33.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 33.
+(Font)                  OT1/cmr/bx/it --> EU1/lmr/bx/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 33.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 33.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 34.
 (./abstract.tex) (./intro.tex
 
 LaTeX Font Warning: Font shape `EU1/HiraginoSansGB-W3(0)/m/sc' undefined
@@ -1201,443 +1208,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--47
 [2]
 File: fig/category.png Graphic file (type QTm)
  <use  "fig/category.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+File: fig/category_density.png Graphic file (type QTm)
+ <use  "fig/category_density.png" > [3]
+File: fig/year_corr.jpg Graphic file (type QTm)
+
+<use  "fig/year_corr.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+File: fig/month_corr.jpg Graphic file (type QTm)
+
+<use  "fig/month_corr.jpg" >
+File: fig/weekday_corr.jpg Graphic file (type QTm)
+ <use  "fig/weekday_corr.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: fig/online_tool.png Graphic file (type QTm)
+
+<use  "fig/online_tool.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 [][][]\EU1/lmr/m/n/8 https://www.kaggle.com/tyz910/sf-crime/yet-another-
  []
 
-File: fig/category_density.png Graphic file (type QTm)
-<use  "fig/category_density.png" >) (./feature.tex [3]) (./model.tex
+
+Underfull \vbox (badness 2065) has occurred while \output is active []
+
+ [5])
+(./feature.tex [6]) (./model.tex [7]
 File: fig/importance.png Graphic file (type QTm)
+ <use  "fig/importance.png" >
+Underfull \vbox (badness 1107) has occurred while \output is active []
 
-<use  "fig/importance.png" > [4]
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\EU1/HiraginoSansGB-W3(0)/m/n/10 提
- []
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 交
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 编
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\EU1/HiraginoSansGB-W3(0)/m/n/10 使
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 用
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 特
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 征
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 编
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\EU1/HiraginoSansGB-W3(0)/m/n/10 迭
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 代
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 轮
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\EU1/HiraginoSansGB-W3(0)/m/n/10 决
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 策
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 树
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 最
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 深
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 宽
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\EU1/HiraginoSansGB-W3(0)/m/n/10 学
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 习
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\EU1/HiraginoSansGB-W3(0)/m/n/10 每
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 棵
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 树
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 的
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 列
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 采
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 样
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\EU1/HiraginoSansGB-W3(0)/m/n/10 提
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 交
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 结
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 果
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 保
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 留
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 几
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 位
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\EU1/HiraginoSansGB-W3(0)/m/n/10 小
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 25--25
-[]\EU1/lmr/m/n/10 0.3| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 27--27
-[]\EU1/lmr/m/n/10 100| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 27--27
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 27--27
-[]\EU1/lmr/m/n/10 2.259029| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 29--29
-[]\EU1/lmr/m/n/10 100| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 29--29
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 29--29
-[]\EU1/lmr/m/n/10 2.235178| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 31--31
-[]\EU1/lmr/m/n/10 100| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 31--31
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 31--31
-[]\EU1/lmr/m/n/10 2.289943| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 33--33
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 33--33
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 33--33
-[]\EU1/lmr/m/n/10 2.263382| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 35--35
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 35--35
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 35--35
-[]\EU1/lmr/m/n/10 2.208462| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 37--37
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 37--37
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 39--39
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 39--39
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 39--39
-[]\EU1/lmr/m/n/10 2.229024| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 41--41
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 41--41
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 41--41
-[]\EU1/lmr/m/n/10 2.223634| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 43--43
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 43--43
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 45--45
-[]\EU1/lmr/m/n/10 100| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 45--45
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (3.63678pt too wide) in paragraph at lines 45--45
-[]\EU1/lmr/m/n/10 2.313002| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 47--47
-[]\EU1/lmr/m/n/10 100| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 47--47
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 47--47
-[]\EU1/lmr/m/n/10 0.8| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 49--49
-[]\EU1/lmr/m/n/10 100| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 49--49
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 49--49
-[]\EU1/lmr/m/n/10 0.8| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 51--51
-[]\EU1/lmr/m/n/10 100| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 51--51
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 51--51
-[]\EU1/lmr/m/n/10 0.8| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 53--53
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 53--53
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 53--53
-[]\EU1/lmr/m/n/10 0.6| 
- []
-
-
-Overfull \hbox (3.61908pt too wide) in paragraph at lines 55--55
-[]\EU1/lmr/m/n/10 200| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 55--55
-[]\EU1/lmr/m/n/10 0.1| 
- []
-
-
-Overfull \hbox (1.39908pt too wide) in paragraph at lines 55--55
-[]\EU1/lmr/m/n/10 0.8| 
- []
-
-
-Overfull \hbox (13.95288pt too wide) in paragraph at lines 21--58
-[][] 
- []
-
-
-Underfull \vbox (badness 3701) has occurred while \output is active []
-
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-[]\EU1/lmr/m/n/10 fold 1: logloss=2.65553851001; accu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-[]\EU1/lmr/m/n/10 fold 3: logloss=2.65923152836; accu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-[]\EU1/lmr/m/n/10 fold 4: logloss=2.65677336961; accu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-[]\EU1/lmr/m/n/10 fold 5: logloss=2.65510318698; accu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-[]\EU1/lmr/m/n/10 average: logloss=2.65691538281; accu-
- []
-
-) (./conclusion.tex)
+)
+(./conclusion.tex [9])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1649,10 +1255,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6
-
-] [7] [8
-
+[10
 
 ] (./main.aux)
 
@@ -1663,12 +1266,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 19634 strings out of 493706
- 411753 string characters out of 6145768
- 464219 words of memory out of 5000000
- 22755 multiletter control sequences out of 15000+600000
- 27853 words of font info for 116 fonts, out of 8000000 for 9000
+ 19702 strings out of 493706
+ 411786 string characters out of 6145769
+ 461586 words of memory out of 5000000
+ 22812 multiletter control sequences out of 15000+600000
+ 27861 words of font info for 117 fonts, out of 8000000 for 9000
  1331 hyphenation exceptions out of 8191
- 42i,8n,69p,10445b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,69p,10455b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (10 pages).

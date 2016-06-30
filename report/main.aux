@@ -5,12 +5,12 @@
 \newlabel{sec:problem}{{II}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}数据集}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}预测和评价}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}数据观察}{1}}
+\newlabel{sec:observation}{{III}{1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 月份对犯罪总量的影响}}{2}}
 \newlabel{fig:monthly}{{1}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 星期对犯罪总量的影响}}{2}}
 \newlabel{fig:dayofweek}{{2}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {III}数据观察}{2}}
-\newlabel{sec:observation}{{III}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}犯罪总量分析}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 小时对犯罪总量的影响}}{2}}
 \newlabel{fig:hourly}{{3}{2}}
@@ -21,25 +21,43 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 不同犯罪类型的总量}}{3}}
 \newlabel{fig:tot_category}{{6}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}犯罪类型分布的分析}{3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-B}1}细粒度分析方法}{3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-B}2}不同犯罪类型对地点的分布}{3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-B}3}不同犯罪类型对时间的分布}{3}}
-\@writefile{toc}{\contentsline {section}{\numberline {IV}特征工程}{3}}
-\newlabel{sec:feature}{{IV}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}对原数据集进行数值化}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}对于街道进行犯罪概率统计}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}利用时空数据点的K-最近邻信息}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}利用聚类结果构造特征}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {V}模型实验}{4}}
-\newlabel{sec:model}{{V}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}实验框架的实现}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}随机森林}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Xgboost}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}K最近邻}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-E}}逻辑斯蒂回归}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}结论}{6}}
-\newlabel{sec:conclusion}{{VI}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 每种犯罪类型的密度图}}{7}}
-\newlabel{fig:tot_category}{{7}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 特征重要性}}{8}}
-\newlabel{importance}{{8}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-B}1}不同犯罪类型对地点的分布}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 每种犯罪类型的密度图}}{4}}
+\newlabel{fig:tot_category}{{7}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-B}2}不同犯罪类型对时间的分布}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 不同年犯罪分布的比较}}{5}}
+\newlabel{fig:year_corr}{{8}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 不同月犯罪分布的比较}}{5}}
+\newlabel{fig:month_corr}{{9}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces 每周各天的犯罪分布的比较}}{5}}
+\newlabel{fig:weekday_corr}{{10}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-B}3}细粒度分析方法}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 在线分析工具给出的聚类结果}}{5}}
+\newlabel{fig:online_tool}{{11}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}特征工程}{6}}
+\newlabel{sec:feature}{{IV}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}对原数据集进行数值化}{6}}
+\newlabel{subsec:feature0}{{\unhbox \voidb@x \hbox {IV-A}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}对于街道进行犯罪概率统计}{6}}
+\newlabel{subsec:feature3}{{\unhbox \voidb@x \hbox {IV-B}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}利用时空数据点的K-最近邻信息}{6}}
+\newlabel{subsec:feature4}{{\unhbox \voidb@x \hbox {IV-C}}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}利用聚类结果构造特征}{7}}
+\newlabel{subsec:feature5}{{\unhbox \voidb@x \hbox {IV-D}}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}模型实验}{7}}
+\newlabel{sec:model}{{V}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}实验框架的实现}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}K最近邻}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}随机森林}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces 随机森林比较各种特征}}{7}}
+\newlabel{tb:rf}{{I}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces 分折编制街道特征后的结果}}{8}}
+\newlabel{tb:rf_3}{{II}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 特征重要性}}{8}}
+\newlabel{fig:importance}{{12}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}Xgboost}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces XgBoost调参过程}}{9}}
+\newlabel{tb:xgboost}{{III}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-E}}逻辑斯蒂回归}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}结论}{10}}
+\newlabel{sec:conclusion}{{VI}{10}}
